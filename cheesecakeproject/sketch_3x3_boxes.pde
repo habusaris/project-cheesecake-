@@ -1,3 +1,6 @@
+String quit= "Quit";
+
+
 void box1(){
 image(pic1,box1X,box1Y,boxwidth,boxheight);
 }//end of box1

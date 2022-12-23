@@ -1,4 +1,4 @@
-void variablePopulation() {
+ =void variablePopulation() {
   ptDiameter = height*1/40;
   rectWidth = width*1/3;
   rectHeight = height*1/3;
@@ -94,9 +94,20 @@ void variablePopulation() {
   image4Y = height*1/3;
   image5X = width*0;
   image5Y = height*2/3;
-  image6X = width*2/3;
+  image6X = width*2/3; 
   image6Y = height*0;
   //
+  width*1/3;
+  width*2/3;
+  height*1/3;
+  width*0;
+  height*0;
+  width*0;
+  height*1/3;
+  width*0;
+  height*2/3;
+  width*2/3;
+  height*0;
   //
   //Text
   text6X = width*20/30;
@@ -152,3 +163,12 @@ void variablePopulation() {
   leaf3X3 = rectWidth*23/40;
   leaf3Y3 = leaf3Y2;
 }
+
+
+
+
+
+  rectwidth*31/15; 
+  rectheight*5/8; 
+  rectwidth*1/4;
+  rectheight*1/5;

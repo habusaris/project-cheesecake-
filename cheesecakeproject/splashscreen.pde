@@ -1,3 +1,13 @@
+int backgroundX, backgroundY, backgroundWidth, backgroundHeight;
+int tintDayMode=255, tintDayModeOpacity=50;
+int tintRed=64, tintGreen=64, tintBlue=40, tintNightModeOpacity=85;
+int quitButtonImageRectX, quitButtonImageRectY, quitButtonImageRectWidth, quitButtonImageRectHeight;
+//
+void backgroundImage() {
+  imageNightMode();
+  image( backGroundImage, backgroundX, backgroundY, backgroundWidth, backgroundHeight );
+}//end background
+//
 void rectangles() {
   fill(green);
   rect(pt1X, pt1Y, rectwidth, rectheight);
@@ -11,3 +21,13 @@ void rectangles() {
   rect(pt11X, pt11Y, rectwidth, rectheight);
   fill(white);
 }//end rectangles
+//
+void backgroundWhiteScreen() {
+  fill(white);
+  noStroke();
+  rect( backgroundX, backgroundY, backgroundWidth, backgroundHeight );
+  strokeWeight(1); //Reset: 1 pixel
+  noFill();
+}//End backgroundWhiteScreen()
+//
+//end splashscreen subprogram
